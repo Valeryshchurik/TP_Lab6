@@ -12,6 +12,6 @@
 #import "Analyser.h"
 int main(int argc, const char * argv[]) {
     Analyser *analyser = [[Analyser alloc] init];
-    [analyser foo:@"Hello Hello World I am computer just a computer a a a a a a a"];
+    [analyser foo:@"Hey hey la la la 42 2 42"];
     return 0;
 }
