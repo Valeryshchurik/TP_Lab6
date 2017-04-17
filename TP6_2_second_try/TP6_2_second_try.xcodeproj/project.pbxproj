@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84A3A6DA1EA4B3FA00C1DEF0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A3A6D91EA4B3FA00C1DEF0 /* CoreLocation.framework */; };
 		84BECAC61EA39C920083F09E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BECAC51EA39C920083F09E /* main.m */; };
 		84BECAC91EA39C930083F09E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BECAC81EA39C930083F09E /* AppDelegate.m */; };
 		84BECACC1EA39C930083F09E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BECACB1EA39C930083F09E /* ViewController.m */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84A3A6D91EA4B3FA00C1DEF0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		84BECAC01EA39C920083F09E /* TP6_2_second_try.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TP6_2_second_try.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BECAC41EA39C920083F09E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84BECAC51EA39C920083F09E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A3A6DA1EA4B3FA00C1DEF0 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +64,7 @@
 		84BECAB71EA39C920083F09E = {
 			isa = PBXGroup;
 			children = (
+				84A3A6D91EA4B3FA00C1DEF0 /* CoreLocation.framework */,
 				84BECAC21EA39C920083F09E /* TP6_2_second_try */,
 				84BECAD91EA39C930083F09E /* TP6_2_second_tryTests */,
 				84BECAC11EA39C920083F09E /* Products */,
@@ -402,6 +406,7 @@
 				84BECAE21EA39C930083F09E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84BECAE31EA39C930083F09E /* Build configuration list for PBXNativeTarget "TP6_2_second_tryTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +415,7 @@
 				84BECAE51EA39C930083F09E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
